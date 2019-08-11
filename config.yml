@@ -1,0 +1,15 @@
+server:
+  rootPath: /api/*
+  applicationConnectors:
+       - type: http
+         port: 8080
+
+
+postgres:
+  host: jdbc:postgresql://localhost
+  databaseName: fyle
+  port: 5432
+  user: postgres
+  password: postgres123
+
+
