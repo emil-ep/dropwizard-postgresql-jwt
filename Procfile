@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.fyle.bankservice.application.BankServiceApplication
+web: java -jar target/bankservice-1.0-SNAPSHOT.jar server config.yml
