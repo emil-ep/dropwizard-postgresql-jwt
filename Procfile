@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* BankServiceApplication
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.fyle.bankservice.application.BankServiceApplication
