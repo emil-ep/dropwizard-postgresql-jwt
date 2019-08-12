@@ -6,7 +6,7 @@ server:
 
 
 postgres:
-  host: jdbc:postgresql://ec2-174-129-229-106.compute-1.amazonaws.com:5432/de91vgmhqf63dk
+  host: jdbc:postgresql://ec2-174-129-229-106.compute-1.amazonaws.com
   databaseName: de91vgmhqf63dk
   port: 5432
   user: jbfmhssxeimhbv
