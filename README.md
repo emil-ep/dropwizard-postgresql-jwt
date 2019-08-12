@@ -8,8 +8,8 @@ The generated jar file 'target/bankservice-1.0-SNAPSHOT.jar' can be run using
   'java -jar bankservice-1.0-SNAPSHOT.jar server config.yml'
 
 The web service is authenticated using Json web token
-User Roles defined in the project's are
-username : RoleOneUser
+User Roles defined in the project's are \n
+username : RoleOneUser \n
 password : RoleOnePass
 
 
