@@ -1,10 +1,10 @@
 server:
   rootPath: /api/*
   applicationConnectors:
-       - type: https
+       - type: http
          port: 8080
-         keyStorePath: moves.keystore
-         keyStorePassword: movescelebrity
+#         keyStorePath: moves.keystore
+#         keyStorePassword: movescelebrity
 
 
 postgres:
