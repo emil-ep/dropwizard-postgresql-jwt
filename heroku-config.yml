@@ -3,6 +3,8 @@ server:
   applicationConnectors:
        - type: https
          port: 8080
+         keyStorePath: moves.keystore
+         keyStorePassword: movescelebrity
 
 
 postgres:
