@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* BankServiceApplication
+web: java $JAVA_OPTS -Ddw.http.port=$PORT -Ddw.server.applicationConnectors[0].port=$PORT -jar target/bankservice-1.0-SNAPSHOT.jar server config.yml
