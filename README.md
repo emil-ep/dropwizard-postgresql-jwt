@@ -19,6 +19,8 @@ User Roles defined in the project's are
 username : RoleOneUser  
 password : RoleOnePass  
 
+The application uses this [dataset](https://github.com/snarayanank2/indian_banks) in Postgresql 
+
 
 ## Usage
 
